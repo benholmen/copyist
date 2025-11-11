@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Copyist",
+    "version": "1.0",
+    "description": "Copy Slack-formatted links with Cmd+C when no text is selected.",
+    "permissions": [
+        "clipboardWrite"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "https://*.atlassian.net/browse/*",
+                "https://github.com/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "run_at": "document_idle"
+        }
+    ]
+}
