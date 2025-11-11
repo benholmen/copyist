@@ -9,7 +9,7 @@ A Chrome extension that copies formatted links suitable to paste to Obsidian, Sl
 ## Installation
 1. Clone the repo locally:
 ```sh
-git clone git@github.com:benholmen/copyist.git [/sensible/local/path/zoom-out]
+git clone git@github.com:benholmen/copyist.git [/sensible/local/path/copyist]
 ```
 2. Open Google Chrome extensions page <a href="chrome://extensions/">chrome://extensions/</a>
 3. Enable Developer Mode
