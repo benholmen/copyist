@@ -10,7 +10,8 @@
         {
             "matches": [
                 "https://*.atlassian.net/browse/*",
-                "https://github.com/*"
+                "https://github.com/*",
+                "https://www.figma.com/*"
             ],
             "js": [
                 "content.js"
